@@ -107,6 +107,7 @@ public class MiniFacebook {
         System.out.println("Datos actualizados.");
     }
 
+
     private int leerEnteroDesdeTexto(String texto, int valorSiError) {
         try { return Integer.parseInt(texto); }
         catch (NumberFormatException e) {
