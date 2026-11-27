@@ -5,6 +5,7 @@ import java.time.format.DateTimeParseException;
 import java.util.*;
 
 //Vicente Sepúlveda y Cristobal Poblete
+//Link video : https://drive.google.com/file/d/1igmuIztiYzmuara00-3vsQ8wOHAvBFky/view?usp=sharing
 
 
 public class MiniFacebook {
