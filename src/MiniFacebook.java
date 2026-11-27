@@ -4,6 +4,8 @@ import java.time.MonthDay;
 import java.time.format.DateTimeParseException;
 import java.util.*;
 
+//Vicente Sepúlveda y Cristobal Poblete
+
 
 public class MiniFacebook {
     private final Map<Integer, Persona> personas = new LinkedHashMap<>();
@@ -221,7 +223,6 @@ public class MiniFacebook {
         try {
             fecha = LocalDate.of(hoy.getYear(), p.mesNacimiento, p.diaNacimiento);
         } catch (DateTimeException e) {
-            // Convención para nacidos el 29 de febrero en años no bisiestos.
             fecha = LocalDate.of(hoy.getYear(), 2, 28);
         }
         if (!fecha.isAfter(hoy)) {
